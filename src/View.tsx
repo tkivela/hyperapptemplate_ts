@@ -7,14 +7,14 @@ export default (state, actions) => (
     <DeltaButton
       action={actions.deltaCount}
       delta={-1}
-      caption='-'
-      color='red'
+      caption="-"
+      color="red"
     />
     <DeltaButton
       action={actions.deltaCount}
       delta={1}
-      caption='+'
-      color='lightgreen'
+      caption="+"
+      color="lightgreen"
     />
   </div>
 )
