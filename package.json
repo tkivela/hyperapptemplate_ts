@@ -1,0 +1,47 @@
+{
+  "name": "hyperapptemplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "hyperapp": "^1.1.2"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel index.html --out-dir build",
+    "test": "npm-run-all -s --silent lint unittest e2etest",
+    "build": "npm-run-all test createbuild",
+    "createbuild": "cross-env NODE_ENV=production parcel build index.html --public-url /",
+    "lint": "npm-run-all -s prettier tslint",
+    "prettier": "prettier-standard 'src/**/*.ts' 'src/**/*.tsx' 'src/**/*.js' 'cypress/**/*.js' 'cypress/**/*.ts'",
+    "unittest": "jest --no-cache",
+    "e2etest": "npm-run-all -p --race --silent start cy:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --config videoRecording=false",
+    "tslint": "tslint --project tsconfig.json 'src/**/*.ts'"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "cypress": "^2.0.2",
+    "hyperapp-render": "^1.1.0",
+    "jest": "^22.2.2",
+    "npm-run-all": "^4.1.2",
+    "parcel-bundler": "^1.6.2",
+    "prettier-standard": "^8.0.0",
+    "snazzy": "^7.0.0",
+    "standard": "^11.0.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.7.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "env": [
+      "jest"
+    ],
+    "globals": [
+      "cy"
+    ]
+  }
+}
