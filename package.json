@@ -33,7 +33,7 @@
     "standard": "^11.0.0",
     "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
-    "typescript": "^2.7.2"
+    "typescript": "~2.6.1"
   },
   "standard": {
     "parser": "babel-eslint",
