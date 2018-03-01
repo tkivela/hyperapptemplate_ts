@@ -13,7 +13,7 @@
     "lint": "npm-run-all -s prettier tslint",
     "prettier": "prettier-standard 'src/**/*.ts' 'src/**/*.tsx' 'src/**/*.js' 'cypress/**/*.js' 'cypress/**/*.ts'",
     "unittest": "jest --no-cache",
-    "e2etest": "npm-run-all -p --race --silent start cy:run",
+    "e2etest": "start-server-and-test start http://localhost:1234 cy:run",
     "cy:open": "cypress open",
     "cy:run": "cypress run --config videoRecording=false",
     "tslint": "tslint --project tsconfig.json 'src/**/*.ts'"
@@ -31,6 +31,7 @@
     "parcel-plugin-typescript": "^0.6.0",
     "prettier-standard": "^8.0.0",
     "snazzy": "^7.1.0",
+    "start-server-and-test": "^1.0.1",
     "ts-jest": "^22.4.0",
     "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
