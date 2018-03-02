@@ -113,9 +113,9 @@
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.8.tgz#d27600e9ba2f371e08695d90a0fe0408d89c7be7"
 
-"@types/jest@^22.1.3":
-  version "22.1.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.1.3.tgz#25da391935e6fac537551456f077ce03144ec168"
+"@types/jest@^22.1.4":
+  version "22.1.4"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.1.4.tgz#5c0c06a9bb495c67e0a78002a952f151e2ae58a1"
 
 "@types/jquery@*":
   version "3.3.0"
@@ -1791,9 +1791,9 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cypress@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-2.0.4.tgz#1d19eddc4bf5eb235a6327c60dd2deac2aad6ccd"
+cypress@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-2.1.0.tgz#a8bd7d9b89c38a1e380db83b57d9bba0dbb95ba4"
   dependencies:
     "@cypress/listr-verbose-renderer" "0.4.1"
     "@cypress/xvfb" "1.1.3"
@@ -4758,9 +4758,9 @@ parcel-bundler@^1.6.2:
     worker-farm "^1.5.2"
     ws "^4.0.0"
 
-parcel-plugin-typescript@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-typescript/-/parcel-plugin-typescript-0.6.0.tgz#70f3c9dd5a361d91ddb15ec69f606bc4ff95773f"
+parcel-plugin-typescript@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-typescript/-/parcel-plugin-typescript-0.7.0.tgz#f22abd95e4971a77d4547f71eb6b5165535e3da9"
   dependencies:
     "@babel/code-frame" "^7.0.0-beta.34"
     body-parser "^1.18.2"
@@ -6489,9 +6489,9 @@ truncate-utf8-bytes@^1.0.0:
   dependencies:
     utf8-byte-length "^1.0.1"
 
-ts-jest@^22.4.0:
-  version "22.4.0"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-22.4.0.tgz#c9d3f9565696e0ad17e658eee96e06822af96bb9"
+ts-jest@^22.4.1:
+  version "22.4.1"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-22.4.1.tgz#69defb2042d689cff9b4244365ef638ecd35f706"
   dependencies:
     babel-core "^6.24.1"
     babel-plugin-istanbul "^4.1.4"

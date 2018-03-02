@@ -2,8 +2,6 @@ export interface IState {
   count: number
 }
 
-const state: IState = {
+export default {
   count: 0
-}
-
-export default state
+} as IState

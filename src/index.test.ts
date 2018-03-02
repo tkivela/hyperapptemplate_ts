@@ -1,7 +1,7 @@
 import { app } from 'hyperapp'
 import { render } from 'hyperapp-render'
 
-import actions from './actions'
+import { actions } from './actions'
 import state from './state'
 import view from './View'
 
