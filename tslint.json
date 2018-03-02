@@ -1,6 +1,3 @@
 {
-  "extends": "tslint-config-standard",
-  "compilerOptions": {
-    "strict": true
-  }
+  "extends": ["tslint-config-standard", "tslint-config-prettier"]
 }
